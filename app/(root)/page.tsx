@@ -34,7 +34,7 @@ const Home = () => {
         <div className="h-full md:col-span-1 xl:col-span-1">
           <TradingViewWidget
             scriptUrl={`${scriptUrl}timeline.js`}
-            config={TOP_STORIES_WIDGET_CONFIG}cle
+            config={TOP_STORIES_WIDGET_CONFIG}
             height={600}
           />
         </div>
